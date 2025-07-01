@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,111 +9,122 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
+      background: #ffffff;
       color: #333;
     }
     header {
-      background: #111;
+      background: #000;
       color: #fff;
-      padding: 50px 20px;
+      padding: 60px 20px 40px;
       text-align: center;
     }
     header img {
-      max-width: 300px;
+      max-width: 100px;
       margin-bottom: 20px;
     }
     h1 {
       margin: 0;
-      font-size: 2.8em;
+      font-size: 3em;
     }
     p.tagline {
       font-size: 1.25em;
       color: #ccc;
+      margin-top: 10px;
     }
     section {
       padding: 60px 20px;
-      max-width: 960px;
+      max-width: 1000px;
       margin: auto;
     }
     .intro {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
     }
     .intro h2 {
-      font-size: 2em;
-      margin-bottom: 10px;
+      font-size: 2.2em;
+      margin-bottom: 20px;
     }
     .intro p {
       font-size: 1.15em;
       color: #555;
+      line-height: 1.6;
     }
     .cta {
-      background: #fff;
-      padding: 40px;
+      background: #f7f7f7;
+      padding: 50px;
       border-radius: 10px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-      max-width: 600px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+      max-width: 700px;
       margin: auto;
+      text-align: center;
     }
     .cta h3 {
       margin-top: 0;
-      font-size: 1.75em;
-      color: #111;
+      font-size: 1.8em;
+      color: #000;
     }
     input, textarea, button {
       width: 100%;
       padding: 14px;
       margin: 12px 0;
       border: 1px solid #ccc;
-      border-radius: 6px;
+      border-radius: 5px;
       font-size: 1em;
     }
     button {
-      background: #111;
+      background: #000;
       color: #fff;
       border: none;
       cursor: pointer;
       transition: background 0.3s ease;
     }
     button:hover {
-      background: #333;
+      background: #444;
     }
     footer {
-      background: #222;
+      background: #111;
       color: #ccc;
       text-align: center;
       padding: 30px 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
+<body>
+  <header>
+    <img src="logo-placeholder.png" alt="Canyon Sound & Light Logo" />
+    <h1>Canyon Sound & Light</h1>
+    <p class="tagline">Audio, Video & Lighting Rentals for Events in Central Washington</p>
+  </header>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6S303P6K8"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-Q6S303P6K8');
 </script>
-<body>
-  <header>
-    <img src="images/canyonsoundandlight-logo.png" alt="Canyon Sound & Light Logo" />
-    <h1>Canyon Sound & Light</h1>
-    <p class="tagline">Reliable Audio & Lighting Rentals for Central Washington Events</p>
-  </header>
   <section>
     <div class="intro">
-      <h2>Dependable. Modern. Local.</h2>
-      <p>We provide stage lighting and audio equipment rentals for weddings, winery events, and business conferences in the Wenatchee area—backed by flexible, professional support you can count on. No more overpriced, outdated, or unreliable AV setups.</p>
+      <h2>Reliable, Modern A/V Rentals for Every Occasion</h2>
+      <p>
+        Canyon Sound & Light provides professional audio and lighting rental services for weddings, winery events, concerts, and corporate functions throughout the Wenatchee Valley. Whether you need crystal-clear sound, ambient lighting, or both, we deliver the gear—and the expertise—to make your event look and sound amazing.
+      </p>
+      <p>
+        Our setups are modern, our pricing is transparent, and our team is here to help you create unforgettable experiences with ease and confidence.
+      </p>
     </div>
+
     <div class="cta">
-      <h3>We're building something for you — be the first to know.</h3>
-      <p>We're currently validating local demand and would love to hear from you. If you're planning an event or just want better A/V options in the valley, sign up below.</p>
+      <h3>Launching Soon — Let's Build Something Memorable Together</h3>
+      <p>
+        We’re currently validating demand and would love to hear from you. If you’re planning an event or looking for great A/V support in Central Washington, let us know.
+      </p>
       <form action="https://formspree.io/f/xrbkjabr" method="POST">
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <input type="phone" name="phone" placeholder="Your Phone Number" />
-        <textarea name="message" placeholder="Tell us about your event, your A/V frustrations, or what you'd love to see offered..." rows="5"></textarea>
+        <textarea name="message" placeholder="Tell us about your event, or what you'd love to see offered..." rows="5"></textarea>
         <button type="submit">Join Our Early List</button>
       </form>
     </div>
